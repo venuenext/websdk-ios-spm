@@ -4,7 +4,6 @@
 
 * Xcode 14.2 or later
 * iOS 14.0+ deployment target
-* Git access to the package repository
 * JFrog Artifactory credentials
 
 ## Setup Steps
