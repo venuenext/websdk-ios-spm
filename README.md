@@ -4,7 +4,6 @@
 
 * Xcode 14.2 or later
 * iOS 14.0+ deployment target
-* Git access to the package repository
 * JFrog Artifactory credentials
 
 ## Setup Steps
@@ -35,9 +34,9 @@ chmod 600 ~/.netrc
 
 1. Open your Xcode project
 2. Go to **File → Add Package Dependencies**
-3. Enter the Git repository URL: `https://github.com/mszydlowski-shift4/websdk-ios-spm-test`
+3. Enter the Git repository URL: `https://github.com/venuenext/websdk-ios-spm`
 4. Select **Dependency Rule**: "Up to Next Major Version" or "Exact Version"
-5. Enter version: `3.2.1`
+5. Enter version: `3.3.0`
 6. Click **Add Package**
 7. Select your target and click **Add Package**
 
