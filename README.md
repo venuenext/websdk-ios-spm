@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-* Xcode 14.2 or later
-* iOS 14.0+ deployment target
+* Xcode 26.2 or later
+* iOS 15.0+ deployment target
 * JFrog Artifactory credentials
 
 ## Setup Steps
@@ -36,7 +36,7 @@ chmod 600 ~/.netrc
 2. Go to **File → Add Package Dependencies**
 3. Enter the Git repository URL: `https://github.com/venuenext/websdk-ios-spm`
 4. Select **Dependency Rule**: "Up to Next Major Version" or "Exact Version"
-5. Enter version: `3.3.0`
+5. Enter version: `3.4.0`
 6. Click **Add Package**
 7. Select your target and click **Add Package**
 
