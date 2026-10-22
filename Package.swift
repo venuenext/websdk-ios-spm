@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
 	name: "VNWebSDK",
 	platforms: [
-		.iOS(.v12)
+		.iOS(.v15)
 	],
 	products: [
 		.library(
@@ -17,8 +17,8 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "VNWebSDK",
-			url: "https://venuenext.jfrog.io/artifactory/ios-sdk/ios-sdk-v3.3.0-xcframework-xcode14.2.0.zip",
-			checksum: "40aa2442bd2337baedefdc1c6fdcf88e7d072126f952706f315ddf785b42fe6f"
+			url: "https://venuenext.jfrog.io/artifactory/ios-sdk/ios-sdk-v3.4.0-xcframework-xcode26.2.zip",
+			checksum: "2f7f350390634d55f92f4cb0e49d770e35e9a4dae60d783c03f7c9abf2e6e8f9"
 		)
 	]
 )
